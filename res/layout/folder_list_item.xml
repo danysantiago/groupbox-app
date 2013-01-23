@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/listview_row_selected" >
+
+    <Button
+        android:id="@+id/row_item_button"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/arrow_right" />
+
+    <TextView
+        android:id="@+id/row_item_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/row_item_button"
+        android:layout_alignBottom="@id/row_item_button"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/row_item_button"
+        android:text="A Folder_Name"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

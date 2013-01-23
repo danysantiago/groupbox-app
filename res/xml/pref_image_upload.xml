@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    
+    <PreferenceCategory android:title='"Image Upload"'><CheckBoxPreference android:title="Wi-Fi Only" android:defaultValue="false" android:key="wifi_only" android:summary="Upload photos only when there is a Wi-Fi connection." /><ListPreference android:entryValues="@array/compress_option_list_value" android:entries="@array/compress_option_list" android:key="image_compression" android:title="Photo Compression Rate" android:defaultValue="2" /></PreferenceCategory>
+    
+
+</PreferenceScreen>

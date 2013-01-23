@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="compress_option_list">
+        <item >High</item>
+        <item >Medium</item>
+        <item >Low</item>
+    </string-array>
+    <string-array name="compress_option_list_value">
+        <item >4</item>
+        <item >3</item>
+        <item >2</item>
+    </string-array>
+    
+</resources>
